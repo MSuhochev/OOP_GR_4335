@@ -19,14 +19,14 @@ public void setTemperature(int temperature) {  //setter temperature
 }
 
 @Override
-    public String toString() {
+    public String toString() {                //toString method override
         return "Product{" +
                 "ID = " + super.getProductId() + 
                 ", name = '" + super.getProductName() + '\'' +
                 ", category = '" + super.getProductCategory() + '\'' +
                 ", cost = " + super.getPrice() + 
                 ", volume = " + super.getVolume() +
-                ", temperature = " + temperature +
+                ", temperature = " + temperature +  //add parameter "temperature" in toString
                 '}';
    
 };
